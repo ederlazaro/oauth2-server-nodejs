@@ -1,0 +1,4 @@
+curl --location --request POST 'http://localhost:3000/oauth/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'Authorization: Basic ZWxhemFybzpCZWxjb3JwMjAyMQ==' \
+--data-urlencode 'grant_type=client_credentials'
